@@ -96,7 +96,7 @@ function App() {
         />
         <Routes>
           <Route
-            path="/WeatherProject" 
+            path="/FinalWeather" 
 
             element={
               <Weather
