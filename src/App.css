@@ -1,0 +1,211 @@
+.header{
+  width: 100%;
+  display: flex;
+  border-bottom: 2px black solid;
+  align-items: center;
+  
+}
+#title{
+  text-align: left;
+  font-size:large;
+  font-weight: bold;
+  padding-left: 15px;
+  width: 50%;
+  
+}
+#btn{
+  padding-right: 20px;
+  padding-top: 15px;
+  text-align: right;
+  width: 50%;
+}
+
+#homepage{
+  width: 100%;
+  height: 100%;
+}
+#showeathr{
+   border-width: 10px;
+   border: black;
+   border-style: groove;
+   height:100%;
+   width: 80%;
+   margin: auto;
+  
+}
+#topleft{
+width:100%;
+height:60%;
+display:flex;
+padding-left:2%;
+padding-top:2%;
+}
+
+#topright{
+width:100%;
+height:60%;
+padding-top:2%;
+padding-right:2%;
+text-align:right;
+display:flex;
+flex-direction:row;
+justify-content:right;
+}
+
+
+#card{
+width: 60%;
+height: 50% ;
+display: flex;
+align-self:center;
+}
+
+#myfavoritesbtn{
+  width: 100%;
+  height: 30%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#cardcontainer{
+height: 50%;
+width: 100%;
+justify-content:center;
+flex-direction: row;
+display: flex;
+align-items:center;
+font-family:Comic Sans MS;
+}
+
+#cards{
+ background-color:white;
+ width:100%;
+ height:100%;
+ display:flex;
+ justify-content:center;
+}
+
+#showeathercontainer{
+  width: 100%;
+  height: 100%;
+}
+
+#topshoweathercontainer{
+display:flex;
+width:100%;
+height:30%;
+z-index:0;
+flex-direction: row;
+}
+#serchicon{
+width:4%;
+height:100%;
+}
+#favoritecard{
+  width:15%;
+  height:30%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:medium;
+  }  
+#inputoptions{
+ width:100%;
+ height:100%;
+ z-index:2;
+}
+
+@media only screen and  (max-width: 700px){
+#showeather{
+  border-width: 10px;
+  border: black;
+  border-style: groove;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+}
+
+#cardcontainer{
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items:flex-start;
+  justify-content: flex-start;
+}
+
+#cards{
+  height: 30%;
+  width: 50%;
+  display: flex;
+  /* font-size: medium; */
+}
+#topshoweathercontainer{
+  display:flex;
+  width:100%;
+  height:50%;
+  z-index:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  }
+
+#topleft{
+  width:100%;
+  height:60%;
+  display:flex;
+  padding-left:2%;
+  padding-top:2%;
+  justify-content: center;
+  z-index: 0;
+}
+
+#topright{
+  width:100%;
+  height: 40%;
+  padding-top:2%;
+  padding-right:2%;
+  display:flex;
+  flex-direction:column-reverse;
+  justify-content:center;
+  align-items: center;
+  z-index: 0;
+  }
+
+#serchicon{
+  width:7%;
+height:100%;
+}
+
+#card{
+  width: 90%;
+  height: 60% ;
+  display: flex;
+  align-self:center;
+  }
+  
+  #favoritecard{
+width:30%;
+height:30%;
+display:flex;
+justify-content:center;
+align-items:center;
+    }  
+}
