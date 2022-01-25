@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WeatherProject/static/css/main.ffdf2c08.css",
+    "main.js": "/WeatherProject/static/js/main.70aea3e8.js",
+    "static/js/787.e28efb7e.chunk.js": "/WeatherProject/static/js/787.e28efb7e.chunk.js",
+    "index.html": "/WeatherProject/index.html",
+    "main.ffdf2c08.css.map": "/WeatherProject/static/css/main.ffdf2c08.css.map",
+    "main.70aea3e8.js.map": "/WeatherProject/static/js/main.70aea3e8.js.map",
+    "787.e28efb7e.chunk.js.map": "/WeatherProject/static/js/787.e28efb7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffdf2c08.css",
+    "static/js/main.70aea3e8.js"
+  ]
+}
