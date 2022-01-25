@@ -77,7 +77,7 @@ export default function Weather(props) {
                              <input name='input' value={inputSearch} onChange={(e)=>{
                                 let value = e.target.value
                                 console.log(value);
-                                value = value.replace(/[^A-Za-z]/ig,"")
+                                value = value.replace(/[^A-Za-z" "]/ig,"")
                                 setInputSearch(value)
                                 console.log(value);
                                  }} style={{fontSize:"large",width:"100%",height:"70%"}} type="text" />
